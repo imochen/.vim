@@ -1,0 +1,11 @@
+*.swp
+*.bak
+*~
+~*
+*Thumbs.db
+*.svn
+logs/*
+*.DS_Store
+.netrwhist
+*/tags
+Powerline_default_default_fancy.cache

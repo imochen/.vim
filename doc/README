@@ -1,0 +1,4 @@
+install:
+    tar zxvf vimcdoc-version-number.tar.gz
+    cd vimcdoc-version-number
+    sudo ./vimcdoc.sh -i
