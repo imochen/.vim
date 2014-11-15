@@ -20,6 +20,8 @@ set ambiwidth=double
 "禁用vi兼容模式
 set nocompatible
 
+set paste
+
 "配色方案
 "dark===
 "color molokai
@@ -28,14 +30,14 @@ set nocompatible
 "color d_maroloccio2
 "color d_midnightmoonlight
 "ok
-color maroloccio2
+"color maroloccio2
 "
 "------------"
 "color paintbox
 "------------"
 
 "light
-"color cage
+color cage
 "color lucius
 "color l_earendel
 "color l_eclipse
