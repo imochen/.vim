@@ -1,2 +1,3 @@
 tagbar.vmb: call delete('/Users/cage/.vim/autoload/tagbar.vim')|call delete('/Users/cage/.vim/doc/tagbar.txt')|call delete('/Users/cage/.vim/plugin/tagbar.vim')|call delete('/Users/cage/.vim/syntax/tagbar.vim')
 rainbow_parenthsis-4.0.vba: call delete('/Users/cage/.vim/autoload/rainbow_parenthsis.vim')|call delete('/Users/cage/.vim/doc/rainbow_parenthsis.txt')|call delete('/Users/cage/.vim/plugin/rainbow_parenthsis.vim')|call delete('/Users/cage/.vim/rainbow_parenthsis_options.vim')
+winmanager.vmb: call delete('/Volumes/HHD/Users/cage/.vim/doc/winmanager.txt')|call delete('/Volumes/HHD/Users/cage/.vim/plugin/winfileexplorer.vim')|call delete('/Volumes/HHD/Users/cage/.vim/plugin/winmanager.vim')|call delete('/Volumes/HHD/Users/cage/.vim/plugin/wintagexplorer.vim')

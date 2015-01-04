@@ -20,7 +20,7 @@ set ambiwidth=double
 "禁用vi兼容模式
 set nocompatible
 
-set paste
+"set paste
 
 "配色方案
 "dark===
