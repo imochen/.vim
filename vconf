@@ -793,5 +793,5 @@ let NERDChristmasTree=3
 let NERDTreeShowHidden=1
 let NERDTreeChDirMode=1
 let NERDChristmasTree=1
-let NERDTreeWinSize=40
+let NERDTreeWinSize=32
 let NERDTreeHighlightCursorline=1
