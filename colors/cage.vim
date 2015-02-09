@@ -173,7 +173,8 @@ if &t_Co > 255
    "代码宽度线颜色
    hi colorcolumn 	  ctermfg=255  ctermbg=1
 
-   "hi LineNr          ctermfg=231 ctermbg=233
+   "行号
+   hi LineNr          ctermfg=102 ctermbg=255
    hi NonText         ctermfg=16 ctermbg=254
 
    hi MBENormal                ctermfg=240

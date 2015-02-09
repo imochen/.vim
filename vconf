@@ -20,6 +20,9 @@ set ambiwidth=double
 "禁用vi兼容模式
 set nocompatible
 
+" 设置 ctags 路径
+let g:tagbar_ctags_bin='/Volumes/HHD/opt/ctags/bin/ctags'
+
 "set paste
 
 "配色方案
@@ -755,11 +758,11 @@ let g:syntastic_mode_map = {'mode' : 'active',
 							\'active_filetypes' : [],
 							\'passive_filetypes' : ['html', 'xhtml']}
 
-nmap <silent> <F8> :TagbarToggle<CR>
-let g:tagbar_left=1
-let g:tagbar_width=30
+"nmap <silent> <F8> :TagbarToggle<CR>
+nmap mt :TagbarToggle<CR>
+let g:tagbar_right=1
+let g:tagbar_width=19
 
-"let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 
 "nmap mc :ToggleRaibowParenthesis<CR>
 
@@ -782,3 +785,13 @@ nmap diI di'
 
 nmap vii vi"
 nmap viI vi'
+
+
+
+nmap mf :NERDTree<cr>
+let NERDChristmasTree=3
+let NERDTreeShowHidden=1
+let NERDTreeChDirMode=1
+let NERDChristmasTree=1
+let NERDTreeWinSize=40
+let NERDTreeHighlightCursorline=1
